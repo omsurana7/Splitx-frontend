@@ -3,7 +3,7 @@ import axios from "axios";
 
 // ✅ Use environment variable for backend URL
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL || "http://localhost:8000",
+  baseURL: import.meta.env.VITE_BACKEND_URL || "https://splitx-backend-nqmb.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },

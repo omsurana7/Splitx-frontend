@@ -24,7 +24,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://splitx-backend.onrender.com", {
+      const res = await axios.post("https://splitx-backend-nqmb.onrender.com", {
         email,
         password,
       });

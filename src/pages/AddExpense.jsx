@@ -36,7 +36,7 @@ function AddExpense() {
 
     try {
       const res = await axios.post(
-        "https://splitx-backend.onrender.com",
+        "https://splitx-backend-nqmb.onrender.com",
         {
           title,
           amount: parseFloat(amount),
