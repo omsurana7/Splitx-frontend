@@ -1,5 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
+import axios from "../utils/axiosSetup"
+
 import {
   Box,
   Button,
@@ -35,7 +37,7 @@ function AddExpense() {
 
     try {
       const res = await axios.post(
-        "http://127.0.0.1:8000/expense/add-expense",
+        "https://splitx-backend.onrender.com",
         {
           title,
           amount: parseFloat(amount),
